@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <button id="nav-toggle" class="nav-toggle" aria-label="Open menu">☰</button>
+
+            <div class="nav-address border">
+                <p class="add-first">Delivering to Ghaziabad</p>
+                <div class="add-icon">
+                    <p class="add-second">Update location</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon.in" class="search-input">
+                <div class="search-icon">
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span><a href="form.html">Hello, sign in</span></p>
+                <p class="nav-second">Account &amp; Lists</p></a>
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">&amp; Orders</p>
+            </div>
+
+            <div class="nav-cart border" id="cart-icon">
+                <p class="cart-text">🛒 Cart</p>
+                <span id="cart-count" class="cart-count">0</span>
+            </div>
+        </div>
+
+        <div class="panel ">
+            <div class="panel-all border">
+                <a href="#"> All</a>
+            </div>
+            <div class="panel-ops">
+                <p class="border"><a href="https://www.amazon.in/alm/storefront?almBrandId=ctnow&ref_=nav_cs_grocery">Fresh</a></p>
+                <p class="border"><a href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav">MX Player</a></p>
+                <p class="border"><a href="https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3">Sell</a></p>
+                <p class="border"><a href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers">Bestsellers</a></p>
+                <p class="border"><a href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles">Mobiles</a></p>
+                <p class="border"><a href="https://www.amazon.in/deals?ref_=nav_cs_gb">Today's Deals</a></p>
+                <p class="border"><a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help">Customer Service</a></p>
+                <p class="border"><a href="https://www.amazon.in/amazonprime?ref_=nav_cs_primelink_nonmember">Prime</a></p>
+                <p class="border"><a href="https://www.amazon.in/amazonpay/home?ref_=nav_cs_apay">Amazon Pay</a></p>
+                <p class="border"><a href="https://www.amazon.in/gp/new-releases/?ref_=nav_cs_newreleases">New Releases</a></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-banner"></div>
+
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true"></div>
+
+    <div class="shop-section">
+
+       
+        <div class="box top">
+            <div class="box-content">
+                <h2>Samsung phones</h2>
+                <div class="box-img-grid">
+                    <div class="grid-item" data-product-price="109999">
+                        <img src="https://m.media-amazon.com/images/I/71xHws+eI5L._AC_UY327_FMwebp_QL65_.jpg" alt="Galaxy S26 Ultra">
+                        <span>Galaxy S26 Ultra</span>
+                        <div class="product-price">₹1,09,999</div>
+                        <button class="add-to-cart-btn" data-product-name="Galaxy S26 Ultra" data-product-price="109999">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="79999">
+                        <img src="https://m.media-amazon.com/images/I/71ju4kS-W8L._AC_UY327_FMwebp_QL65_.jpg" alt="Galaxy S26">
+                        <span>Galaxy S26</span>
+                        <div class="product-price">₹79,999</div>
+                        <button class="add-to-cart-btn" data-product-name="Galaxy S26" data-product-price="79999">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="164999">
+                        <img src="https://m.media-amazon.com/images/I/61Q1AgNSO3L._AC_UY327_FMwebp_QL65_.jpg" alt="Galaxy Z Fold">
+                        <span>Galaxy Z Fold</span>
+                        <div class="product-price">₹1,64,999</div>
+                        <button class="add-to-cart-btn" data-product-name="Galaxy Z Fold" data-product-price="164999">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="99999">
+                        <img src="https://m.media-amazon.com/images/I/71iZ+fdoI9L._AC_UY327_FMwebp_QL65_.jpg" alt="Galaxy S25 Ultra">
+                        <span>Galaxy S25 Ultra</span>
+                        <div class="product-price">₹99,999</div>
+                        <button class="add-to-cart-btn" data-product-name="Galaxy S25 Ultra" data-product-price="99999">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+       
+        <div class="box top">
+            <div class="box-content">
+                <h2>Laptops</h2>
+                <div class="box-img-grid">
+                    <div class="grid-item" data-product-price="164900">
+                        <img src="https://m.media-amazon.com/images/I/61NJjTxLyiL._AC_UY327_FMwebp_QL65_.jpg" alt="MacBook Pro M5">
+                        <span>MacBook Pro M5</span>
+                        <div class="product-price">₹1,64,900</div>
+                        <button class="add-to-cart-btn" data-product-name="MacBook Pro M5" data-product-price="164900">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="49990">
+                        <img src="https://m.media-amazon.com/images/I/818iNyzckGL._AC_UY327_FMwebp_QL65_.jpg" alt="Asus Vivobook">
+                        <span>Asus Vivobook</span>
+                        <div class="product-price">₹49,990</div>
+                        <button class="add-to-cart-btn" data-product-name="Asus Vivobook" data-product-price="49990">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="35990">
+                        <img src="https://m.media-amazon.com/images/I/61AccNkmFFL._AC_UY327_FMwebp_QL65_.jpg" alt="Lenovo V15">
+                        <span>Lenovo V15</span>
+                        <div class="product-price">₹35,990</div>
+                        <button class="add-to-cart-btn" data-product-name="Lenovo V15" data-product-price="35990">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="118900">
+                        <img src="https://m.media-amazon.com/images/I/71upqrupfYL._AC_UY327_FMwebp_QL65_.jpg" alt="MacBook Air M3">
+                        <span>MacBook Air M3</span>
+                        <div class="product-price">₹1,18,900</div>
+                        <button class="add-to-cart-btn" data-product-name="MacBook Air M3" data-product-price="118900">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="box top">
+            <div class="box-content">
+                <h2>Nike's Shoes</h2>
+                <div class="box-img-grid">
+                    <div class="grid-item" data-product-price="12995">
+                        <img src="https://m.media-amazon.com/images/I/617QwsxtCKL._AC_UL480_FMwebp_QL65_.jpg" alt="Air Max 270">
+                        <span>Air Max 270</span>
+                        <div class="product-price">₹12,995</div>
+                        <button class="add-to-cart-btn" data-product-name="Air Max 270" data-product-price="12995">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="5995">
+                        <img src="https://m.media-amazon.com/images/I/6153ielYw4L._AC_UL480_FMwebp_QL65_.jpg" alt="Running Shoes">
+                        <span>Running Shoes</span>
+                        <div class="product-price">₹5,995</div>
+                        <button class="add-to-cart-btn" data-product-name="Running Shoes" data-product-price="5995">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="7999">
+                        <img src="https://m.media-amazon.com/images/I/611FxiQiz+L._AC_UL480_FMwebp_QL65_.jpg" alt="Run Defy">
+                        <span>Run Defy</span>
+                        <div class="product-price">₹7,999</div>
+                        <button class="add-to-cart-btn" data-product-name="Run Defy" data-product-price="7999">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="4499">
+                        <img src="https://m.media-amazon.com/images/I/71VVWOqV3uL._AC_UL480_FMwebp_QL65_.jpg" alt="Winflo 11">
+                        <span>Winflo 11</span>
+                        <div class="product-price">₹4,499</div>
+                        <button class="add-to-cart-btn" data-product-name="Winflo 11" data-product-price="4499">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+       
+        <div class="box top">
+            <div class="box-content">
+                <h2>Starting ₹799 | Headphones</h2>
+                <div class="box-img-grid">
+                    <div class="grid-item" data-product-price="2499">
+                        <img src="https://m.media-amazon.com/images/I/711l4y8aNlL._AC_UY327_FMwebp_QL65_.jpg" alt="Rockerz 480">
+                        <span>Rockerz 480</span>
+                        <div class="product-price">₹2,499</div>
+                        <button class="add-to-cart-btn" data-product-name="Rockerz 480" data-product-price="2499">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="1499">
+                        <img src="https://m.media-amazon.com/images/I/61faDMBMdmL._AC_UL480_FMwebp_QL65_.jpg" alt="Rockerz 411">
+                        <span>Rockerz 411</span>
+                        <div class="product-price">₹1,499</div>
+                        <button class="add-to-cart-btn" data-product-name="Rockerz 411" data-product-price="1499">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="1999">
+                        <img src="https://m.media-amazon.com/images/I/71QdB7hDCAL._AC_UY327_FMwebp_QL65_.jpg" alt="Rockerz 412">
+                        <span>Rockerz 412</span>
+                        <div class="product-price">₹1,999</div>
+                        <button class="add-to-cart-btn" data-product-name="Rockerz 412" data-product-price="1999">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="3499">
+                        <img src="https://m.media-amazon.com/images/I/51o1ooDqHwL._AC_UY327_FMwebp_QL65_.jpg" alt="Rockerz 650">
+                        <span>Rockerz 650</span>
+                        <div class="product-price">₹3,499</div>
+                        <button class="add-to-cart-btn" data-product-name="Rockerz 650" data-product-price="3499">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+      
+        <div class="box bottom">
+            <div class="box-content">
+                <h2>OnePlus Earbuds</h2>
+                <div class="box-img-grid">
+                    <div class="grid-item" data-product-price="4999">
+                        <img src="https://m.media-amazon.com/images/I/61j7TE3NsuL._AC_UY327_FMwebp_QL65_.jpg" alt="OnePlus Buds 4">
+                        <span>OnePlus Buds 4</span>
+                        <div class="product-price">₹4,999</div>
+                        <button class="add-to-cart-btn" data-product-name="OnePlus Buds 4" data-product-price="4999">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="2499">
+                        <img src="https://m.media-amazon.com/images/I/51nBTTG3hNL._AC_UY327_FMwebp_QL65_.jpg" alt="OnePlus Buds 3R">
+                        <span>OnePlus Buds 3R</span>
+                        <div class="product-price">₹2,499</div>
+                        <button class="add-to-cart-btn" data-product-name="OnePlus Buds 3R" data-product-price="2499">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="7999">
+                        <img src="https://m.media-amazon.com/images/I/51x7nfLWtBL._AC_UY327_FMwebp_QL65_.jpg" alt="OnePlus Buds 4 Pro">
+                        <span>OnePlus Buds 4 Pro</span>
+                        <div class="product-price">₹7,999</div>
+                        <button class="add-to-cart-btn" data-product-name="OnePlus Buds 4 Pro" data-product-price="7999">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="5999">
+                        <img src="https://m.media-amazon.com/images/I/71wlgC7Q5ZL._AC_UY327_FMwebp_QL65_.jpg" alt="OnePlus Buds 3 Pro">
+                        <span>OnePlus Buds 3 Pro</span>
+                        <div class="product-price">₹5,999</div>
+                        <button class="add-to-cart-btn" data-product-name="OnePlus Buds 3 Pro" data-product-price="5999">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+       
+        <div class="box bottom">
+            <div class="box-content">
+                <h2>Garnier Facewash</h2>
+                <div class="box-img-grid">
+                    <div class="grid-item" data-product-price="199">
+                        <img src="https://m.media-amazon.com/images/I/711-v3qfhmL._AC_SX416_CB1169409_QL70_.jpg" alt="Cleanser Facewash">
+                        <span>Cleanser Facewash</span>
+                        <div class="product-price">₹199</div>
+                        <button class="add-to-cart-btn" data-product-name="Cleanser Facewash" data-product-price="199">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="249">
+                        <img src="https://m.media-amazon.com/images/I/615gCt+GzCL._AC_SX416_CB1169409_QL70_.jpg" alt="Turbo Bright">
+                        <span>Turbo Bright</span>
+                        <div class="product-price">₹249</div>
+                        <button class="add-to-cart-btn" data-product-name="Turbo Bright" data-product-price="249">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="175">
+                        <img src="https://m.media-amazon.com/images/I/618jobvtmgL._AC_SX416_CB1169409_QL70_.jpg" alt="Acno Fight">
+                        <span>Acno Fight</span>
+                        <div class="product-price">₹175</div>
+                        <button class="add-to-cart-btn" data-product-name="Acno Fight" data-product-price="175">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="299">
+                        <img src="https://m.media-amazon.com/images/I/51O4CZnsiZL._AC_UL480_FMwebp_QL65_.jpg" alt="Vitamin C">
+                        <span>Vitamin C</span>
+                        <div class="product-price">₹299</div>
+                        <button class="add-to-cart-btn" data-product-name="Vitamin C" data-product-price="299">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+       
+        <div class="box bottom">
+            <div class="box-content">
+                <h2>Best Sellers in Beauty</h2>
+                <div class="box-img-grid">
+                    <div class="grid-item" data-product-price="349">
+                        <img src="https://m.media-amazon.com/images/I/71cseSChxxL._AC_SY170_.jpg" alt="Magic Soap">
+                        <span>Magic Soap</span>
+                        <div class="product-price">₹349</div>
+                        <button class="add-to-cart-btn" data-product-name="Magic Soap" data-product-price="349">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="499">
+                        <img src="https://m.media-amazon.com/images/I/51O+J5jnXcL._AC_SY170_.jpg" alt="Cetaphil">
+                        <span>Cetaphil</span>
+                        <div class="product-price">₹499</div>
+                        <button class="add-to-cart-btn" data-product-name="Cetaphil" data-product-price="499">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="219">
+                        <img src="https://m.media-amazon.com/images/I/4125gF+XmHL._AC_SY170_.jpg" alt="Nivea">
+                        <span>Nivea</span>
+                        <div class="product-price">₹219</div>
+                        <button class="add-to-cart-btn" data-product-name="Nivea" data-product-price="219">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="279">
+                        <img src="https://m.media-amazon.com/images/I/41beuVz949L._AC_SY170_.jpg" alt="Mamaearth">
+                        <span>Mamaearth</span>
+                        <div class="product-price">₹279</div>
+                        <button class="add-to-cart-btn" data-product-name="Mamaearth" data-product-price="279">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+     
+        <div class="box bottom">
+            <div class="box-content">
+                <h2>Continue shopping deals</h2>
+                <div class="box-img-grid">
+                    <div class="grid-item" data-product-price="1299">
+                        <img src="https://m.media-amazon.com/images/I/71At9zBj1gL._AC_SY145_.jpg" alt="Deal Item 1">
+                        <span>Daily Deal 1</span>
+                        <div class="product-price">₹1,299</div>
+                        <button class="add-to-cart-btn" data-product-name="Daily Deal 1" data-product-price="1299">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="899">
+                        <img src="https://m.media-amazon.com/images/I/61ommEwkAUL._AC_SY145_.jpg" alt="Deal Item 2">
+                        <span>Daily Deal 2</span>
+                        <div class="product-price">₹899</div>
+                        <button class="add-to-cart-btn" data-product-name="Daily Deal 2" data-product-price="899">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="2199">
+                        <img src="https://m.media-amazon.com/images/I/71-4Nz4368L._AC_SY145_.jpg" alt="Deal Item 3">
+                        <span>Daily Deal 3</span>
+                        <div class="product-price">₹2,199</div>
+                        <button class="add-to-cart-btn" data-product-name="Daily Deal 3" data-product-price="2199">Add to Cart</button>
+                    </div>
+                    <div class="grid-item" data-product-price="649">
+                        <img src="https://m.media-amazon.com/images/I/51AU-3YG6QL._AC_SY145_.jpg" alt="Deal Item 4">
+                        <span>Daily Deal 4</span>
+                        <div class="product-price">₹649</div>
+                        <button class="add-to-cart-btn" data-product-name="Daily Deal 4" data-product-price="649">Add to Cart</button>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        </div>
+
+        <div class="col">
+            Related to items you've viewed
+            <a href="#">see more</a>
+            <ul>
+                <li><a href="https://www.amazon.in/Jones-Oversized-T-Shirt-12261189-Warm-Sand_Warm/dp/B0DJMD3ZGX/"><img src="https://m.media-amazon.com/images/I/611hF148-3L._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/JACK-JONES-Green-Classic-T-Shirt/dp/B0CM3WDG4P/"><img src="https://m.media-amazon.com/images/I/51Khy-mqa9L._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/JACK-JONES-Green-Classic-T-Shirt/dp/B0CM3WDG4P/"><img src="https://m.media-amazon.com/images/I/51Khy-mqa9L._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/JACK-JONES-Black-Sized-T-Shirt/dp/B0CNKJ6JK4/"><img src="https://m.media-amazon.com/images/I/517TS9aCUeL._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/JACK-JONES-Mens-Oversized-Tshirt/dp/B0DW934F1H/"><img src="https://m.media-amazon.com/images/I/51YF8Ghmm1L._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/JACK-JONES-Mens-Grey-T-Shirt/dp/B0CLS7BWHZ/"><img src="https://m.media-amazon.com/images/I/61LCRmrghgL._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/Jack-Jones-Black-Sized-T-Shirt/dp/B0CV7ST26V/"><img src="https://m.media-amazon.com/images/I/51hEa3-c5GL._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/JACK-JONES-Slim-Green-Tshirt/dp/B0DGT8KBTH/"><img src="https://m.media-amazon.com/images/I/51n4WanefkL._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/JACK-JONES-Slim-Brown-Tshirt/dp/B0DHVLY7GV/"><img src="https://m.media-amazon.com/images/I/51kYKec2j5L._AC_SY200_.jpg" alt=""></a></li>
+                <li><a href="https://www.amazon.in/U-S-POLO-ASSN-Oversized-OEE04-PL_Black/dp/B0DN11NNGM/"><img src="https://m.media-amazon.com/images/I/61-EVA-HgNL._AC_SY200_.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="foot">
+            <a href="#">Back to top</a>
+        </div>
+        <div class="foot-two">
+            <ul>
+                <span>Get to Know Us</span>
+                <li><a href="">About Amazon</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Press release</a></li>
+                <li><a href="">Amazon Science</a></li>
+            </ul>
+            <ul>
+                <span>Connect with Us</span>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+            <ul>
+                <span>Make money with us</span>
+                <li><a href="">Sell on Amazon</a></li>
+                <li><a href="">Sell under Amazon Accelerator</a></li>
+                <li><a href="">Protect and Build Your Brand</a></li>
+                <li><a href="">Amazon Global Selling</a></li>
+                <li><a href="">Supply to Amazon</a></li>
+                <li><a href="">Become an Affiliate</a></li>
+                <li><a href="">Fulfilment by Amazon</a></li>
+                <li><a href="">Advertise Your Products</a></li>
+                <li><a href="">Amazon Pay on Merchants</a></li>
+            </ul>
+            <ul>
+                <span>Let us help You</span>
+                <li><a href="">Your Account</a></li>
+                <li><a href="">Returns Centre</a></li>
+                <li><a href="">Recalls and Product Safety Alerts</a></li>
+                <li><a href="">100% Purchase Protection</a></li>
+                <li><a href="">Amazon App Download</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+        <div class="end"></div>
+    </footer>
+
+   
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-modal-content">
+            <span class="close-btn" onclick="toggleCart()">&times;</span>
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <button class="checkout-btn" onclick="alert('Proceeding to checkout...')">Checkout</button>
+        </div>
+    </div>
+
+   
+    <div id="product-modal" class="product-modal" aria-hidden="true">
+        <div class="product-modal-overlay" id="product-modal-overlay"></div>
+        <div class="product-modal-card" role="dialog" aria-modal="true">
+            <button class="product-modal-close" id="product-modal-close" aria-label="Close">&times;</button>
+
+            <div class="product-modal-body">
+                <!-- Left: image -->
+                <div class="product-modal-img-wrap">
+                    <img id="pm-img" src="" alt="" />
+                </div>
+
+                <!-- Right: details -->
+                <div class="product-modal-details">
+                    <p class="pm-badge">Amazon.in</p>
+                    <h2 id="pm-name"></h2>
+
+                    <div class="pm-rating">
+                        <span class="pm-stars">★★★★☆</span>
+                        <span class="pm-reviews">1,248 ratings</span>
+                    </div>
+
+                    <div class="pm-divider"></div>
+
+                    <div class="pm-price-block">
+                        <span class="pm-label">Price:</span>
+                        <span id="pm-price" class="pm-price"></span>
+                    </div>
+
+                    <p class="pm-delivery">🚚 FREE delivery by <strong id="pm-delivery-date"></strong></p>
+                    <p class="pm-stock">✅ In Stock</p>
+
+                    <div class="pm-qty-row">
+                        <label for="pm-qty">Qty:</label>
+                        <select id="pm-qty">
+                            <option>1</option><option>2</option><option>3</option>
+                            <option>4</option><option>5</option>
+                        </select>
+                    </div>
+
+                    <button class="pm-btn pm-btn-cart" id="pm-add-cart">🛒 Add to Cart</button>
+                    <button class="pm-btn pm-btn-buy"  id="pm-buy-now">⚡ Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
