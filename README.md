@@ -1,1 +1,1 @@
-# amazon-clone
+# Fake-Amazon
